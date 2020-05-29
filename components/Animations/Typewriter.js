@@ -36,7 +36,7 @@ const Typewriter = ({ message }) => {
             animation: ${write} 4s steps(30) 3 alternate;
           `}
         >
-          |
+          &#9474;
         </Span>
       </Message>
     </Container>

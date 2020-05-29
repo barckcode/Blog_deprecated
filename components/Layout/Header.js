@@ -4,12 +4,12 @@ import styled from '@emotion/styled'
 //Components:
 import ListSocial from '../Social/SocialList'
 import Typewriter from '../Animations/Typewriter'
+import Separator from '../Figures/Separator'
 
 //Styles:
 const Header = styled.header`
   text-align: left;
-  padding-top: 2rem;
-  padding-left: 1rem;
+  padding: 2rem 1rem 0 1rem;
 `
 
 const Title = styled.h1`
@@ -22,19 +22,12 @@ const Title = styled.h1`
   -webkit-text-fill-color: transparent;
 `
 
-const Separator = styled.div`
-  margin-top: 1rem;
-  width: 100%;
-  border-bottom: 1px solid;
-  opacity: .5;
-`
-
 const Home = () => {
   return (
     <Header>
       <Title>BarckCode</Title>
       <Typewriter
-        message={'Bienvenidx a mi website!🙋🏾‍♂️'}
+        message={'Bienvenidx a mi website!'}
       />
       <ListSocial />
     <Separator />

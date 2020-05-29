@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Global
         styles={css`
-          @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Oswald:wght@200;400;600;700&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
 
           * {
             margin: 0;
@@ -21,7 +21,7 @@ const Home = () => {
           body {
             color: #b0b8e3;
             background-color: #000415;
-            font-family: 'Oswald', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
           }
 
           .main {
