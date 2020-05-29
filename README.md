@@ -1,30 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# barckcode.dev
 
-## Getting Started
+Website: [https://barckcode.dev/](https://barckcode.dev/)
 
-First, run the development server:
+#### Sigueme en 👇🏾:
+- Twitter: [https://twitter.com/barckcode](https://twitter.com/barckcode)
+- Instagram: [https://www.instagram.com/_barckcode/](https://www.instagram.com/_barckcode/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### Participación:
+Si tienes ganas de participar ayudandome a mejorar mi website acepto con gusto tu ayuda. O si quieras darme feedback del sitio te invito a que me dejes un tweet o un mensaje directo en cualquiera de mis redes sociales.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Acerca del Sitio:
+Es una Single Page App que usa Next.js/React para construir la UI del sitio. Y Firebase para darle todo el poder de Serverless.
+Diseño enfocado en Mobile First.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### ToDo List:
+- [x] Header Component
+- [x] Bio Component
+- [ ] Projects Component
+- [ ] Layout Component
+- [ ] Responsive
+- [ ] Light Mode
+- [ ] Conect to Firebase
