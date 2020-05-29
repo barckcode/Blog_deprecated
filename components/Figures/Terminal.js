@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
+//Styles:
 const Container = styled.div`
   margin: 1.5rem 1rem 0 1rem;
   padding: 1rem;

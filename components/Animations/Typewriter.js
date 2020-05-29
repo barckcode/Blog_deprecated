@@ -2,12 +2,13 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { css, keyframes } from '@emotion/core'
 
+//Styles:
 const Container = styled.div`
-	margin: auto;
+  margin-top: 1rem;
 	display: table;
 `
 
-const Message = styled.h2`
+const Message = styled.h3`
   position: relative;
 	float: left;
 `
@@ -16,7 +17,7 @@ const Span = styled.span`
   position: absolute;
   right: 0;
   width: 0;
-  background: #000;
+  background: #000415;
 `
 
 const write = keyframes`
@@ -32,7 +33,7 @@ const Typewriter = ({ message }) => {
         {message}
         <Span
           css={css`
-            animation: ${write} 4s steps(30) infinite alternate;
+            animation: ${write} 4s steps(30) 3 alternate;
           `}
         >
           |

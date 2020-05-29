@@ -1,9 +1,9 @@
 import React from 'react'
 import { Global, css } from '@emotion/core'
 
+//Components:
 import Header from '../components/Layout/Header'
-import Terminal from '../components/Figures/Terminal'
-import Typewriter from '../components/Animations/Typewriter'
+import Bio from '../components/Layout/Bio'
 
 const Home = () => {
   return (
@@ -32,11 +32,7 @@ const Home = () => {
       />
       <main className='main'>
         <Header />
-        <Terminal>
-          <Typewriter
-            message={'Bienvenidx a mi website!🙋🏾‍♂️'}
-          />
-        </Terminal>
+        <Bio />
       </main>
     </>
   )
