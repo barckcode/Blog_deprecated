@@ -4,6 +4,8 @@ import { Global, css } from '@emotion/core'
 //Components:
 import Header from '../components/Layout/Header'
 import Bio from '../components/Layout/Bio'
+import Projects from '../components/Layout/Projects'
+import Footer from '../components/Layout/Footer'
 
 const Home = () => {
   return (
@@ -33,6 +35,8 @@ const Home = () => {
       <main className='main'>
         <Header />
         <Bio />
+        <Projects />
+        <Footer />
       </main>
     </>
   )

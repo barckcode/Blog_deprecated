@@ -3,9 +3,9 @@ import styled from '@emotion/styled'
 
 //Styles:
 const Container = styled.div`
-  margin: 1.5rem 1rem 0 1rem;
+  margin: 3rem 0;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 25px;
   background-color: #000;
 `
 
