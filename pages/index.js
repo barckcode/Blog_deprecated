@@ -18,10 +18,11 @@ const Home = () => {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-decoration: none;
+            color: #b0b8e3;
           }
 
           body {
-            color: #b0b8e3;
             background-color: #000415;
             font-family: 'Source Sans Pro', sans-serif;
           }
