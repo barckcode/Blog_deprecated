@@ -7,9 +7,13 @@ import Separator from '../Figures/Separator'
 //Styles:
 const BioContainer = styled.section`
   margin-top: 3rem;
-  padding: 0 1rem 1rem;
+  padding: 0 1rem 0 1rem;
   align-items: center;
   text-align: center;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
 `
 
 const ImageContainer = styled.figure`
@@ -25,10 +29,13 @@ const BioDescription = styled.div`
   margin-bottom: 2rem;
 `
 
-const Title = styled.div`
+const BioTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (min-width: 768px) {
+    justify-content: left;
+  }
 `
 
 const BioSpock = styled.img`
@@ -37,31 +44,35 @@ const BioSpock = styled.img`
 `
 
 const Description = styled.p`
-  text-align: center;
   margin-top: 0.5rem;
+  @media (min-width: 768px) {
+    text-align: justify;
+  }
 `
 
 const Bio = () => {
   return (
-    <BioContainer>
-      <ImageContainer>
-        <Image src='barckcode.png'/>
-      </ImageContainer>
-      <BioDescription>
-        <Title>
-          <h3>
-            Hola!
-          </h3>
-          <BioSpock src='/icons/spock.svg' />
-        </Title>
-        <Description>
-          Me llamo Cristian y soy Frontend Developer. Actualmente trabajo y resido en Madrid. 🇪🇺
-          Pero estoy acostumbrado también a participar en proyectos a distancia. 🌎
-          Mis pasiones favoritas son viajar y el buen café. ☕️
-        </Description>
-      </BioDescription>
+    <>
+      <BioContainer>
+        <ImageContainer>
+          <Image src='barckcode.png'/>
+        </ImageContainer>
+        <BioDescription>
+          <BioTitle>
+            <h3>
+              Hola!
+            </h3>
+            <BioSpock src='/icons/spock.svg' />
+          </BioTitle>
+          <Description>
+            Me llamo Cristian y soy Frontend Developer. Actualmente trabajo y resido en Madrid. 🇪🇺
+            Pero estoy acostumbrado también a participar en proyectos a distancia. 🌎
+            Mis pasiones favoritas son viajar y el buen café. ☕️
+          </Description>
+        </BioDescription>
+      </BioContainer>
       <Separator />
-    </BioContainer>
+    </>
   )
 }
 

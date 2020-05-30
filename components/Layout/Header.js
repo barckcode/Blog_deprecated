@@ -10,6 +10,10 @@ import Separator from '../Figures/Separator'
 const Header = styled.header`
   text-align: left;
   padding: 2rem 1rem 0 1rem;
+
+  @media (min-width: 768px) {
+    text-align: center;
+  }
 `
 
 const Title = styled.h1`
@@ -30,7 +34,7 @@ const Home = () => {
         message={'Bienvenidx a mi website!'}
       />
       <ListSocial />
-    <Separator />
+      <Separator />
     </Header>
   )
 }

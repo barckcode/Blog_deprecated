@@ -11,6 +11,9 @@ import { socialMedia } from '../Services/Data'
 const SocialContainer = styled.nav`
   display: flex;
   margin-top: 1rem;
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 `
 
 const SocialList = () => {

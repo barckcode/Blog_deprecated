@@ -6,6 +6,9 @@ import { css, keyframes } from '@emotion/core'
 const Container = styled.div`
   margin-top: 1rem;
 	display: table;
+  @media (min-width: 768px) {
+    margin: 1rem auto 0 auto
+  }
 `
 
 const Message = styled.h3`
