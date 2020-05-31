@@ -1,5 +1,6 @@
 import React from 'react'
 import { Global, css } from '@emotion/core'
+import Head from 'next/head'
 
 //Components:
 import Header from '../components/Layout/Header'
@@ -10,10 +11,13 @@ import Footer from '../components/Layout/Footer'
 const Home = () => {
   return (
     <>
+      <Head>
+        <html lang="es"/>
+        <title>BarckCode</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet" />
+      </Head>
       <Global
         styles={css`
-          @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap');
-
           * {
             margin: 0;
             padding: 0;
