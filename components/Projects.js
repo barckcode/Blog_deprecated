@@ -2,11 +2,11 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 //Components:
-import Terminal from '../Figures/Terminal'
-import ProjectCard from '../Cards/ProjectCard'
+import Terminal from './Figures/Terminal'
+import ProjectCard from './Cards/ProjectCard'
 
 //Data:
-import { projectsList } from '../Services/Data'
+import { projectsList } from './Services/Data'
 
 //Styles:
 const Title = styled.h2`

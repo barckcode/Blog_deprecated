@@ -16,8 +16,9 @@ Diseño enfocado en Mobile First.
 ### ToDo List:
 - [x] Header Component
 - [x] Bio Component
-- [ ] Projects Component
+- [x] Projects Component
 - [ ] Layout Component
-- [ ] Responsive
+- [x] Responsive
 - [ ] Light Mode
-- [ ] Conect to Firebase
+- [x] Conect to Firebase
+- [ ] Contact Form
