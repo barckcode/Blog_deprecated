@@ -65,7 +65,7 @@ const Bio = () => {
             <BioSpock src='/icons/spock.svg' />
           </BioTitle>
           <Description>
-            Me llamo Cristian y soy Frontend Developer. Actualmente trabajo y resido en Madrid. 🇪🇺
+            Me llamo Cristian y soy Linux SysAdmin. Actualmente trabajo y resido en Madrid. 🇪🇺
             Pero estoy acostumbrado también a participar en proyectos a distancia. 🌎
             Mis pasiones favoritas son viajar y el buen café. ☕️
           </Description>
