@@ -17,8 +17,9 @@ Diseño enfocado en Mobile First.
 - [x] Header Component
 - [x] Bio Component
 - [x] Projects Component
-- [ ] Layout Component
+- [x] Layout Component
 - [x] Responsive
 - [ ] Light Mode
 - [x] Conect to Firebase
 - [ ] Contact Form
+- [ ] Blog
