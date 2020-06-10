@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         <title>BarckCode</title>
       </Head>
       <GlobalStyles
-      // Hay que crear un state para manejar esta condición
+      // Hay que crear un state para manejar esta condición. Y un botón para modificar el state.
         theme={ DarkTheme ? DarkTheme : LightTheme}
       />
       <main className='main'>

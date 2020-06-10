@@ -65,8 +65,8 @@ const Bio = () => {
             <BioSpock src='/icons/spock.svg' />
           </BioTitle>
           <Description>
-            Me llamo Cristian y soy Linux SysAdmin. Actualmente trabajo y resido en Madrid. 🇪🇺
-            Pero estoy acostumbrado también a participar en proyectos a distancia. 🌎
+            Me llamo Cristian. Actualmente trabajo y resido en Madrid. 🇪🇺
+            Aunque también estoy acostumbrado a participar en proyectos a distancia. 🌎
             Mis pasiones favoritas son viajar y el buen café. ☕️
           </Description>
         </BioDescription>
