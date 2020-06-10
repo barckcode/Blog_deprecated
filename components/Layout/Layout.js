@@ -12,7 +12,7 @@ import { GlobalStyles } from '../../public/styles/GlobalStyles'
 const Layout = ({ children }) => {
   const DarkTheme = {
     colors: {
-      primary: '#000415',
+      primary: '#00002b',
     }
   }
 

@@ -20,7 +20,7 @@ const Span = styled.span`
   position: absolute;
   right: 0;
   width: 0;
-  background: #000415;
+  background: #00002b;
 `
 
 const write = keyframes`
@@ -36,7 +36,7 @@ const Typewriter = ({ message }) => {
         {message}
         <Span
           css={css`
-            animation: ${write} 4s steps(30) 3 alternate;
+            animation: ${write} 3s steps(30) 3 alternate;
           `}
         >
           &#9474;
