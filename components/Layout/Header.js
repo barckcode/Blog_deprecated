@@ -4,7 +4,6 @@ import styled from '@emotion/styled'
 //Components:
 import ListSocial from '../Social/SocialList'
 import Typewriter from '../Animations/Typewriter'
-import Separator from '../Figures/Separator'
 
 //Styles:
 const Header = styled.header`
@@ -19,8 +18,8 @@ const Header = styled.header`
 const Title = styled.h1`
   font-family: 'Merienda', cursive;
   font-size: 3rem;
-  background: linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% ),
-              -webkit-linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% );
+  background: linear-gradient(90deg, #cbd4ff 0%, #001164 100% ),
+              -webkit-linear-gradient(90deg, #cbd4ff 0%, #001164 100% );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,7 +33,6 @@ const Home = () => {
         message={'Bienvenidx a mi website!'}
       />
       <ListSocial />
-      <Separator />
     </Header>
   )
 }

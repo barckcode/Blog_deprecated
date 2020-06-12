@@ -53,6 +53,7 @@ const Description = styled.p`
 const Bio = () => {
   return (
     <>
+      <Separator />
       <BioContainer>
         <ImageContainer>
           <Image src='barckcode.png'/>

@@ -13,7 +13,7 @@ export const GlobalStyles = ({ theme }) => {
           padding: 0;
           box-sizing: border-box;
           text-decoration: none;
-          color: #b0b8e3;
+          color: #001164;
         }
 
         body {

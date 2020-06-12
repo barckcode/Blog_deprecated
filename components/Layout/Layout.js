@@ -10,13 +10,13 @@ import { GlobalStyles } from '../../public/styles/GlobalStyles'
 
 //Estas constantes de Theme hay que llevarlas a su propio componente.
 const Layout = ({ children }) => {
-  const DarkTheme = {
+  const LightTheme = {
     colors: {
-      primary: '#00002b',
+      primary: '#fdfdfd',
     }
   }
 
-  const LightTheme = {
+  const DarkTheme = {
     colors: {
       primary: '#fff',
     }
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       </Head>
       <GlobalStyles
       // Hay que crear un state para manejar esta condición. Y un botón para modificar el state.
-        theme={ DarkTheme ? DarkTheme : LightTheme}
+        theme={LightTheme}
       />
       <main className='main'>
         <Header />

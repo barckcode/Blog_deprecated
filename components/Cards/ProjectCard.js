@@ -8,8 +8,9 @@ const ProjectContainer = styled.div`
   padding-bottom: 1rem;
   border-radius: 25px;
   text-align: center;
-  background: #000415;
-  box-shadow:  30px 30px 60px #000208;
+  background: #ffffff;
+  box-shadow:  23px 23px 45px #f0f0f0,
+             -23px -23px 45px #ffffff;
 `
 
 const ProjectImage = styled.img`

@@ -19,8 +19,9 @@ const Message = styled.h3`
 const Span = styled.span`
   position: absolute;
   right: 0;
-  width: 0;
-  background: #00002b;
+  width: 1%;
+  text-align: left;
+  background: #fdfdfd;
 `
 
 const write = keyframes`

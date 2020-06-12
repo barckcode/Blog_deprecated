@@ -2,18 +2,30 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 //Components:
-import Terminal from './Figures/Terminal'
 import ProjectCard from './Cards/ProjectCard'
 
 //Data:
 import { projectsList } from './Services/Data'
 
 //Styles:
-const Title = styled.h2`
-  text-align: center;
+const Container = styled.section`
+  margin-top: 3rem;
+  padding: 2rem 0.5rem;
+  border-radius: 25px;
+  background: #fdfdfd;
+  box-shadow:  23px 23px 45px #afafaf,
+             -23px -23px 45px #ffffff;
+  @media (min-width: 768px) {
+    padding: 2rem;
+  }
 `
 
-const ProjectContainer = styled.section`
+const Title = styled.h2`
+  text-align: center;
+  font-size: 1.75rem;
+`
+
+const ProjectContainer = styled.div`
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,7 +36,7 @@ const ProjectContainer = styled.section`
 const Projects = () => {
 
   return (
-    <Terminal>
+    <Container>
       <Title>> Proyectos</Title>
       <ProjectContainer>
         {
@@ -39,7 +51,7 @@ const Projects = () => {
           ))
         }
       </ProjectContainer>
-    </Terminal>
+    </Container>
   )
 }
 
