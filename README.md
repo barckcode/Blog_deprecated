@@ -19,7 +19,7 @@ Diseño enfocado en Mobile First.
 - [x] Projects Component
 - [x] Layout Component
 - [x] Responsive
-- [ ] Light Mode
+- [ ] Dark Mode
 - [x] Conect to Firebase
 - [ ] Contact Form
 - [ ] Blog

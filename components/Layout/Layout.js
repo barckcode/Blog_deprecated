@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <html lang="es"/>
         <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet" />
         <title>BarckCode</title>
       </Head>
