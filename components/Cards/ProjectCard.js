@@ -29,9 +29,9 @@ const ProjectLink = styled.a`
   font-weight: bold;
   cursor: pointer;
   color: #000415;
+  transition: all 250ms;
   background: linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% ),
             -webkit-linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% );
-  transition: all 250ms;
 
   &:hover {
     background: linear-gradient(90deg, #6a82fb 0%,#fc5c7d 100% ),

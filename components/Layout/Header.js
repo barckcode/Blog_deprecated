@@ -8,18 +8,23 @@ import Typewriter from '../Animations/Typewriter'
 //Styles:
 const Header = styled.header`
   text-align: left;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: #170131;
 
   @media (min-width: 768px) {
     text-align: center;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
   }
 `
 
 const Title = styled.h1`
   font-family: 'Merienda', cursive;
   font-size: 3rem;
-  background: linear-gradient(90deg, #cbd4ff 0%, #001164 100% ),
-              -webkit-linear-gradient(90deg, #cbd4ff 0%, #001164 100% );
+  background: linear-gradient(90deg, #9F51B6 0%, #170131 100% ),
+              -webkit-linear-gradient(90deg, #9F51B6 0%, #170131 100% );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-//Components:
-import Separator from '../Figures/Separator'
-
 //Styles:
 const BioContainer = styled.section`
-  margin-top: 3rem;
+  margin: 3rem auto 0 auto;
   padding: 0 1rem 0 1rem;
+  width: 100%;
+  max-width: 768px;
   align-items: center;
   text-align: center;
   @media (min-width: 768px) {
@@ -53,7 +52,6 @@ const Description = styled.p`
 const Bio = () => {
   return (
     <>
-      <Separator />
       <BioContainer>
         <ImageContainer>
           <Image src='barckcode.png'/>
@@ -72,7 +70,6 @@ const Bio = () => {
           </Description>
         </BioDescription>
       </BioContainer>
-      <Separator />
     </>
   )
 }

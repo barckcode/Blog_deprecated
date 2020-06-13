@@ -14,6 +14,7 @@ const Container = styled.div`
 const Message = styled.h3`
   position: relative;
 	float: left;
+  color: #9F51B6;
 `
 
 const Span = styled.span`
@@ -21,7 +22,8 @@ const Span = styled.span`
   right: 0;
   width: 1%;
   text-align: left;
-  background: #fdfdfd;
+  color: #9F51B6;
+  background: #170131;
 `
 
 const write = keyframes`

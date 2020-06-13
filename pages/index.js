@@ -5,6 +5,9 @@ import Layout from '../components/Layout/Layout'
 import Bio from '../components/Layout/Bio'
 import Projects from '../components/Projects'
 
+//DataBase
+
+
 const Home = () => {
   return (
     <Layout>
