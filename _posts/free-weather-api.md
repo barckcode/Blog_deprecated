@@ -35,9 +35,9 @@ Recapitulemos. En este ejemplo vamos a utilizar la opción de pronóstico de cin
 Antes de empezar a utilizarla debemos registrarnos en su página web. Una vez registrado te enviarán un correo de verificación y unos cinco minutos después ya podrás usar la API.
 
 La URL que vamos a utilizar es:
-<blockquote>http://api.openweathermap.org/data/2.5/forecast?q=<strong>CIUDAD</strong>,<strong>PAIS</strong>&appid=<strong>API_KEY</strong></blockquote>
+<p>http://api.openweathermap.org/data/2.5/forecast?q=<strong>CIUDAD</strong>,<strong>PAIS</strong>&appid=<strong>API_KEY</strong></p>
 
-<h5>OJO!!</h5> Cuando llevemos a producción nuestro sitio. Seguramente queramos utilizar HTTPS. En ese caso tendrás que modificar también el protocolo en la URL de la API para que utilice HTTPS. Sino tu app no funcionará.
+<h5 class='alert' >OJO‼️</h5> Cuando llevemos a producción nuestro sitio. Seguramente queramos utilizar HTTPS. En ese caso tendrás que modificar también el protocolo en la URL de la API para que utilice HTTPS. Sino tu app no funcionará.
 
 Esto es muy sencillo simplemente cambia el http del principio de la URL. Y pon https. Y el resto todo igual.
 
@@ -47,7 +47,7 @@ Funcionamiento:
 - **API_KEY**: Cuando te registras y verificas tu email. Te envían un correo con tu API KEY. De todas formas siempre puedes gestionar tus API_KEYs haciendo login en su web. En el apartado llamado "API keys".
 
 Bueno teniendo esto claro vamos ya a ver como sería una llamada a nuestra API. Y los parámetros que nos da:
-<img>![Code Example](/assets/blog/dynamic-routing/response.png)</img>
+<img>![Code Example](/assets/blog/free-weather-api/response.png)</img>
 
 - **cod:** Si la petición ha sido exitosa te devolverá un **cod** con un código 200. En caso de fallar la petición te devolverá un 404.
 
@@ -63,7 +63,7 @@ Ahora bien. Estos serían los datos principales de la API. Pero vamos a profundi
 
 ### List
 Vamos a adentrarnos en el array de objetos list. En el ejemplo que estamos utilizando este array nos devuelve 40 objetos. Los cuales contienen los mismos parámetros pero con distinta información según lo que consultemos.
-<img>![Code Example](/assets/blog/dynamic-routing/list.png)</img>
+<img>![Code Example](/assets/blog/free-weather-api/list.png)</img>
 
 Vamos a analizar algunos de los parámetros más importantes de estos objetos:
 
@@ -78,7 +78,7 @@ Suponiendo que la hora más cercana a la hora real a la que estemos haciendo la 
 
 ### City
 Veamos ahora el objeto city. Este tiene menos información que el array list. Pero no por ello es menos útil.
-<img>![Code Example](/assets/blog/dynamic-routing/city.png)</img>
+<img>![Code Example](/assets/blog/free-weather-api/city.png)</img>
 
 Analicemos sus datos más importantes:
 - **name:** El nombre de la ciudad que estemos consultando.

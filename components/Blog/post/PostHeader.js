@@ -1,17 +1,30 @@
+import styled from '@emotion/styled'
+
+// Services:
 import DateFormater from '../../Services/DateFormater'
 import CoverImage from '../../Services/CoverImage'
+
+// Components:
 import PostTitle from './PostTitle'
 
-export default function PostHeader({ title, coverImage, date}) {
+// Styles:
+const DateContainer = styled.h5`
+  text-align: center;
+  margin-top: 0.5rem;
+`
+
+const PostHeader = ({ title, coverImage, date}) => {
   return (
     <>
-      <div className="mb-8 md:mb-16 -mx-5 sm:mx-0">
+      <div>
         <CoverImage title={title} src={coverImage} />
       </div>
       <PostTitle>{title}</PostTitle>
-      <div className="mb-6 text-lg">
+      <DateContainer>
         <DateFormater dateString={date} />
-      </div>
+      </DateContainer>
     </>
   )
 }
+
+export default PostHeader

@@ -3,9 +3,8 @@ import styled from '@emotion/styled'
 // Styles
 const Title = styled.h1`
   margin-top: 1rem;
-  @media (min-width: 768px) {
-    text-align: center;
-  }
+  text-align: center;
+  font-size: 1.75rem;
 `
 
 const PostTitle = ({ children }) => {
