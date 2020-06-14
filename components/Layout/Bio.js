@@ -56,7 +56,7 @@ const Bio = () => {
     <>
       <BioContainer>
         <ImageContainer>
-          <Image src='barckcode.png'/>
+          <Image src='/barckcode.png'/>
         </ImageContainer>
         <BioDescription>
           <BioTitle>
