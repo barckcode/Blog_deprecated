@@ -44,8 +44,10 @@ const BioSpock = styled.img`
 
 const Description = styled.p`
   margin-top: 0.5rem;
+  padding: 0 2rem;
+  text-align: justify;
   @media (min-width: 768px) {
-    text-align: justify;
+    padding: 0;
   }
 `
 

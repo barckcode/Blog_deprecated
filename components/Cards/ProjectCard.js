@@ -1,27 +1,12 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { css } from '@emotion/core'
+
+//Services:
+import CoverImage from '../Services/CoverImage'
 
 //Styles:
-const ProjectContainer = styled.div`
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 25px;
-  text-align: center;
-  background: #ffffff;
-  box-shadow:  23px 23px 45px #f0f0f0,
-             -23px -23px 45px #ffffff;
-`
-
-const ProjectImage = styled.img`
-  width: 100%;
-  border-radius: 25px;
-`
-
-const ProjectTitle = styled.h3`
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-`
+import { Container, Title } from './Styles'
 
 const ProjectLink = styled.a`
   padding: 0.5rem 1rem;
@@ -43,15 +28,21 @@ const ProjectLink = styled.a`
 
 const ProjectCard = ({ image, title, repo, url }) => {
   return (
-    <ProjectContainer>
+    <Container>
       <a
         href={url}
         alt={title}
         target='_blank'
         rel='noopener noreferrer'
       >
-        <ProjectImage src={image} />
-        <ProjectTitle>{title}</ProjectTitle>
+        <CoverImage src={image} />
+        <Title
+          css={css`
+            margin-bottom: 1.5rem;
+          `}
+        >
+          {title}
+        </Title>
       </a>
       <ProjectLink
         href={repo}
@@ -61,7 +52,7 @@ const ProjectCard = ({ image, title, repo, url }) => {
       >
         Repositorio
       </ProjectLink>
-    </ProjectContainer>
+    </Container>
   )
 }
 
