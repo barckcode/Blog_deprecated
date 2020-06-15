@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styled from '@emotion/styled'
 
 //Components:
@@ -33,7 +34,11 @@ const Title = styled.h1`
 const Home = () => {
   return (
     <Header>
-      <Title>BarckCode</Title>
+      <Link href='/'>
+        <a>
+          <Title>BarckCode</Title>
+        </a>
+      </Link>
       <Typewriter
         message={'Bienvenidx a mi website!'}
       />

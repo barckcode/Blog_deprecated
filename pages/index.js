@@ -1,11 +1,11 @@
 import React from 'react'
-import { getAllPosts } from '../lib/api'
+import { getAllPosts } from '../lib/Api'
 
 //Components:
 import Layout from '../components/Layout/Layout'
 import Bio from '../components/Layout/Bio'
 import Projects from '../components/Projects'
-import Blog from '../components/Blog'
+import Blog from '../components/LastPosts'
 
 const Home = ({ allPosts }) => {
   const morePosts = allPosts.filter(post => post.id > 1)
