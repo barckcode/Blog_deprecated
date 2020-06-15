@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { css, keyframes } from '@emotion/core'
 
 //Styles:
+import { writeEffect } from '../Animations'
+
 const Container = styled.div`
   margin-top: 1rem;
 	display: table;
@@ -22,13 +23,9 @@ const Span = styled.span`
   right: 0;
   width: 1%;
   text-align: left;
+  animation: ${writeEffect} 3s steps(30) 3 alternate;
   color: #9F51B6;
   background: #170131;
-`
-
-const write = keyframes`
-  from {width: 100%}
-  to {width: 0}
 `
 
 const Typewriter = ({ message }) => {
@@ -37,11 +34,7 @@ const Typewriter = ({ message }) => {
     <Container>
       <Message>
         {message}
-        <Span
-          css={css`
-            animation: ${write} 3s steps(30) 3 alternate;
-          `}
-        >
+        <Span>
           &#9474;
         </Span>
       </Message>

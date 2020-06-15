@@ -1,5 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { css } from '@emotion/core'
+
+//Services:
+import CoverImage from '../Services/CoverImage'
 
 //Styles:
 const BioContainer = styled.section`
@@ -16,11 +20,8 @@ const BioContainer = styled.section`
 `
 
 const ImageContainer = styled.figure`
-  width: 100%;
-`
-
-const Image = styled.img`
-  width: 120px;
+  width: 140px;
+  margin: 0 auto;
 `
 
 const BioDescription = styled.div`
@@ -56,7 +57,7 @@ const Bio = () => {
     <>
       <BioContainer>
         <ImageContainer>
-          <Image src='/barckcode.png'/>
+          <CoverImage src='/barckcode.png' />
         </ImageContainer>
         <BioDescription>
           <BioTitle>

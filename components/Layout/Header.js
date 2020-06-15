@@ -3,8 +3,8 @@ import Link from 'next/link'
 import styled from '@emotion/styled'
 
 //Components:
+import Typewriter from '../Figures/Typewriter'
 import ListSocial from '../Social/SocialList'
-import Typewriter from '../Animations/Typewriter'
 
 //Styles:
 const Header = styled.header`
