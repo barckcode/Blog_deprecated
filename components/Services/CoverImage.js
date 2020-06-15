@@ -6,9 +6,9 @@ import styled from '@emotion/styled'
 import { fadeInKeyframes } from '../Animations'
 
 const Image = styled.img`
-  animation: 1s ${fadeInKeyframes} ease;
   width: 100%;
   border-radius: 25px;
+  animation: 1s ${fadeInKeyframes} ease;
 `
 
 

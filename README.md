@@ -22,4 +22,5 @@ Diseño enfocado en Mobile First.
 - [ ] Dark Mode
 - [x] Conect to Firebase
 - [ ] Contact Form
-- [ ] Blog
+- [x] Blog
+- [ ] New Page for blog

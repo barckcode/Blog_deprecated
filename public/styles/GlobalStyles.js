@@ -1,6 +1,9 @@
 import React from 'react'
 import { Global, css } from '@emotion/core'
 
+// Styles:
+import { fadeInKeyframes } from '../../components/Animations'
+
 export const GlobalStyles = ({ theme }) => {
 
   const { primary } = theme.colors
@@ -60,6 +63,7 @@ export const GlobalStyles = ({ theme }) => {
             border-radius: 25px;
             margin: 1rem auto;
             display: block;
+            animation: 1s ${fadeInKeyframes} ease;
           }
 
           blockquote {
