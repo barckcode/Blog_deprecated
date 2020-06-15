@@ -20,6 +20,7 @@ Diseño enfocado en Mobile First.
 - [x] Layout Component
 - [x] Responsive
 - [ ] Dark Mode
+- [ ] Lazy Loading
 - [x] Conect to Firebase
 - [ ] Contact Form
 - [x] Blog
