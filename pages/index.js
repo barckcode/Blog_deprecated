@@ -6,6 +6,7 @@ import Layout from '../components/Layout/Layout'
 import Bio from '../components/Layout/Bio'
 import Projects from '../components/Projects'
 import Blog from '../components/LastPosts'
+import Contact from '../components/Contact'
 
 const Home = ({ allPosts }) => {
   const lastPosts = allPosts.filter(post => post.id > 1)
@@ -15,6 +16,7 @@ const Home = ({ allPosts }) => {
       <Bio />
       {lastPosts.length > 0 && <Blog posts={lastPosts} />}
       <Projects />
+      <Contact />
     </Layout>
   )
 }
