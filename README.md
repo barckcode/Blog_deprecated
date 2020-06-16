@@ -21,7 +21,10 @@ Diseño enfocado en Mobile First.
 - [x] Responsive
 - [ ] Dark Mode
 - [ ] Lazy Loading
-- [x] Conect to Firebase
-- [ ] Contact Form
+- [x] Conect to Firebase Hosting
+- [ ] Conect to Firestore
+- [x] Contact Form
+- [ ] Improve UX
+- [ ] Improve SEO
 - [x] Blog
 - [ ] New Page for blog

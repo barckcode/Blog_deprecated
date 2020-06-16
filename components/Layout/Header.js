@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from '@emotion/styled'
 
 //Components:
-import Typewriter from '../Figures/Typewriter'
+import Typewriter from '../Ui/Typewriter'
 import ListSocial from '../Social/SocialList'
 
 //Styles:
