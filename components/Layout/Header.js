@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 //Components:
 import Typewriter from '../Ui/Typewriter'
 import ListSocial from '../Social/SocialList'
+import Navbar from '../Ui/Navbar'
 
 //Styles:
 const Header = styled.header`
@@ -33,17 +34,20 @@ const Title = styled.h1`
 
 const Home = () => {
   return (
-    <Header>
-      <Link href='/'>
-        <a>
-          <Title>BarckCode</Title>
-        </a>
-      </Link>
-      <Typewriter
-        message={'Bienvenidx a mi website!'}
-      />
-      <ListSocial />
-    </Header>
+    <>
+      <Header>
+        <Link href='/'>
+          <a>
+            <Title>BarckCode</Title>
+          </a>
+        </Link>
+        <Typewriter
+          message={'Bienvenidx a mi website!'}
+        />
+        <ListSocial />
+      </Header>
+      {/* <Navbar /> */}
+    </>
   )
 }
 

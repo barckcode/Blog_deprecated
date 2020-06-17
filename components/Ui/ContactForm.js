@@ -152,9 +152,12 @@ const ContactForm = () => {
           onChange={handleChange}
         />
 
-        <Button >
+        <button
+          type='submit'
+          className='button_link button_button'
+        >
           Enviar
-        </Button>
+        </button>
       </Fieldset>
     </form>
   )

@@ -29,6 +29,44 @@ export const GlobalStyles = ({ theme }) => {
           margin: 0 auto;
         }
 
+        .link {
+          padding: 0.5rem 2rem;
+        }
+
+        .link_active {
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+          background-color: ${primary};
+        }
+
+        .button_link {
+          padding: 0.5rem 1rem;
+          border-radius: 10px;
+          font-weight: bold;
+          cursor: pointer;
+          color: #000415;
+          transition: all 250ms ease;
+          background: linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% ),
+                    -webkit-linear-gradient(90deg, #fc5c7d 0%,#6a82fb 100% );
+
+          &:hover {
+            background: linear-gradient(90deg, #6a82fb 0%,#fc5c7d 100% ),
+                    -webkit-linear-gradient(90deg, #6a82fb 0%,#fc5c7d 100% );
+            padding: 0.35rem 1rem 0.65rem 1rem;
+            transition: all 250ms ease;
+          }
+        }
+
+        .button_button {
+          margin: 1rem auto 0 auto;
+          display: block;
+          border-color: #000415;
+
+          &:hover {
+            padding: 0.6rem 1rem 0.4rem 1rem;
+          }
+        }
+
         .post {
           h3 {
             margin: 1.5rem 0 0.5rem 0;
