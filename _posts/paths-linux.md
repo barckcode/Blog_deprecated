@@ -1,7 +1,7 @@
 ---
 id: 2
 title: 'Linux Tips: ¿Cómo funcionan las rutas?'
-excerpt: 'Rutas relativas, rutas absolutas, un punto, dos puntos...¿sabes exactamente lo que son, a que hacen referencia y como funcionan? En este pequeño post te lo explicamos.'
+excerpt: 'Rutas relativas, rutas absolutas, un punto, dos puntos...¿Sabes exactamente lo que son, a que hacen referencia y como funcionan? En este pequeño post te lo explicamos.'
 coverImage: '/assets/categories/linux.svg'
 date: '2020-06-17'
 author:

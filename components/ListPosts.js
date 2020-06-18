@@ -22,11 +22,11 @@ const GridPosts = styled.div`
   }
 `
 
-const Blog = ({ posts }) => {
+const Blog = ({ posts, title }) => {
   return (
     <Container>
       <Title>
-        > Últimos Posts
+        {title}
       </Title>
       <GridPosts>
         {posts.map((post) => (

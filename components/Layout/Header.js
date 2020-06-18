@@ -11,14 +11,10 @@ import Navbar from '../Ui/Navbar'
 const Header = styled.header`
   text-align: left;
   padding: 2rem 1rem 2rem 1rem;
-  border-bottom-left-radius: 15%;
-  border-bottom-right-radius: 15%;
   background-color: #170131;
 
   @media (min-width: 768px) {
     text-align: center;
-    border-bottom-left-radius: 25%;
-    border-bottom-right-radius: 25%;
   }
 `
 
@@ -46,7 +42,7 @@ const Home = () => {
         />
         <ListSocial />
       </Header>
-      {/* <Navbar /> */}
+      <Navbar />
     </>
   )
 }

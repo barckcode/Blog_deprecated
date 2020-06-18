@@ -5,7 +5,7 @@ import { getAllPosts } from '../lib/Api'
 import Layout from '../components/Layout/Layout'
 import Bio from '../components/Layout/Bio'
 import Projects from '../components/Projects'
-import Blog from '../components/LastPosts'
+import ListPosts from '../components/ListPosts'
 import Contact from '../components/Contact'
 
 const Home = ({ allPosts }) => {
@@ -14,7 +14,10 @@ const Home = ({ allPosts }) => {
   return (
     <Layout>
       <Bio />
-      {lastPosts.length > 0 && <Blog posts={lastPosts} />}
+      <ListPosts
+        title='> Últimos Posts'
+        posts={lastPosts}
+      />
       <Projects />
       <Contact />
     </Layout>
