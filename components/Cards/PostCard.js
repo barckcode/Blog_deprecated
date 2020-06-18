@@ -7,7 +7,6 @@ import CoverImage from '../Services/CoverImage'
 //Styles:
 import { Container, Title, DateText, Description } from './Styles'
 
-
 const PostCard = ({
   title,
   coverImage,
@@ -15,6 +14,7 @@ const PostCard = ({
   excerpt,
   slug,
 }) => {
+
   return (
     <Container>
       <CoverImage

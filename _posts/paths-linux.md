@@ -63,7 +63,7 @@ Genial!!. Ya sabes formular rutas absolutas. Pero estas tienen un pequeño probl
 Imagina lo que sería tener que escribir una ruta absoluta enorme cada vez que tienes que dirigirte a ella. Sería horrible. Y muy poco efectivo. Para ello tenemos lo que conocemos como...
 
 ### Rutas Relativas.
-Antes de hablar de rutas relativas quiero enseñarte una cosa. ¿Has visto alguna vez que contiene dentro de un directorio vacío?
+Antes de hablar de rutas relativas quiero enseñarte una cosa. ¿Has visto alguna vez que contiene dentro un directorio vacío?
 
 En teoría debería estar vacío pero vamos a fijarnos bien:
 <img>![Code Example](/assets/blog/paths-linux/link-points.png)</img>
@@ -77,7 +77,7 @@ Pero Keep Calm. Vamos a verlo con ejemplos que es como mejor se entiende.
 Volvamos al mismo árbol de directorios de antes. Pero esta vez vamos a movermos dentro del directorio 👉🏾<strong> docker-master </strong> y vamos a ver que contiene:
 <img>![Code Example](/assets/blog/paths-linux/docker-master.png)</img>
 
-Si te fijas. Al principio del todo de la imagen se ve que tiene también el punto y los dos puntos dentro. Vamos a ver qué significan:
+Si te fijas. Al principio de la imagen se ve que tiene también el punto y los dos puntos dentro. Vamos a ver qué significan:
 - <strong> . </strong> 👉🏾 Hace referencia al directorio actual en el que te encuentas. En este caso como estamos en <strong> docker-master </strong> pues el 👉🏾 <strong> . </strong> hace referencia a <strong> docker-master </strong>
 - <strong> .. </strong> 👉🏾 Hace referencia al directorio padre del que te encuentras. En este caso al estar dentro de <strong> docker-master </strong> pues 👉🏾 <strong> .. </strong> hace referencia a <strong> Docker_Trainee </strong>
 <img>![Code Example](/assets/blog/paths-linux/father-son.png)</img>
@@ -113,7 +113,7 @@ Quedando de la siguiente forma:
 
 Vamos a movernos hasta el directorio <strong> accepts
 </strong>.
-Y vamos a hacer una ruta relativa que llegue desde nuestra ubicación. hasta <strong> package.json </strong>
+Y vamos a hacer una ruta relativa que llegue desde nuestra ubicación. Hasta <strong> package.json </strong>
 - Para ello primero debemos ir hasta nuestro directorio padre (Que en este caso ahora es node_modules). 👉🏾<strong> .. </strong>
 - Añadimos un separador 👉🏾<strong> / </strong>
 - Ahora que estamos en <strong> node_modules </strong> ya podemos bajar hasta 👉🏾 <strong> abbrev </strong>
