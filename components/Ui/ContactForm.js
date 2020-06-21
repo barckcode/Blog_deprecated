@@ -78,6 +78,7 @@ const ContactForm = () => {
   })
 
   const [ error, setError ] = useState(false) // Validate Form
+  const [ successfull, setSuccessfull ] = useState(false) // Validate Form
 
   // Handle Data State
   const handleChange = e => {
@@ -107,6 +108,8 @@ const ContactForm = () => {
         data
       })
 
+    // setSuccessfull(true)
+
     // Reboot Form
     setData({
       name: '',
@@ -114,6 +117,12 @@ const ContactForm = () => {
       message: '',
     })
   }
+
+  // setInterval(() => {
+  //   setSuccessfull(false)
+  // }, 3000)
+
+  console.log(successfull)
 
   // Destructing Data State
   const { name, email, message } = data
@@ -158,6 +167,8 @@ const ContactForm = () => {
         >
           Enviar
         </button>
+
+        {successfull ? <h1>Mensaje enviado</h1> : null}
       </Fieldset>
     </form>
   )
