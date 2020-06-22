@@ -22,9 +22,9 @@ Diseño enfocado en Mobile First.
 - [ ] Dark Mode
 - [ ] Lazy Loading
 - [x] Conect to Firebase Hosting
-- [ ] Conect to Firestore
+- [x] Conect to Firestore
 - [x] Contact Form
 - [ ] Improve UX
 - [ ] Improve SEO
 - [x] Blog
-- [ ] New Page for blog
+- [x] New Page for blog

@@ -6,6 +6,7 @@ import firebase from '../../firebase/firebase'
 
 // Components:
 import ErrorForm from './ErrorForm'
+import SuccessfullForm from './SuccessfullForm'
 
 // Styles:
 const Fieldset = styled.fieldset`
@@ -108,7 +109,8 @@ const ContactForm = () => {
         data
       })
 
-    // setSuccessfull(true)
+    // Successfull Message
+    setSuccessfull(true)
 
     // Reboot Form
     setData({
@@ -117,12 +119,6 @@ const ContactForm = () => {
       message: '',
     })
   }
-
-  // setInterval(() => {
-  //   setSuccessfull(false)
-  // }, 3000)
-
-  console.log(successfull)
 
   // Destructing Data State
   const { name, email, message } = data
@@ -168,7 +164,7 @@ const ContactForm = () => {
           Enviar
         </button>
 
-        {successfull ? <h1>Mensaje enviado</h1> : null}
+        {successfull ? <SuccessfullForm /> : null}
       </Fieldset>
     </form>
   )
