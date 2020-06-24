@@ -9,7 +9,7 @@ import ListPosts from '../components/ListPosts'
 import Contact from '../components/Contact'
 
 const Home = ({ allPosts }) => {
-  const lastPosts = allPosts.filter(post => post.id > 0)
+  const lastPosts = allPosts.filter(post => post.id > 1)
 
   return (
     <Layout>

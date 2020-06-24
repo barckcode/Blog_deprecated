@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="155" viewBox="0 0 320 155">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_197" data-name="Rectángulo 197" width="320" height="155" transform="translate(-1770 -6396)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_65" data-name="Enmascarar grupo 65" transform="translate(1770 6396)" clip-path="url(#clip-path)">
+    <g id="estibador" transform="translate(-1687.5 -6393.585)">
+      <path id="Trazado_518" data-name="Trazado 518" d="M155,75.084c0,41.468-34.7,75.084-77.5,75.084S0,116.551,0,75.084,34.7,0,77.5,0c39.506,0,72.106,28.639,76.893,65.657a72.157,72.157,0,0,1,.595,8.149C155,74.232,155,74.658,155,75.084Z" fill="#170131"/>
+      <g id="Grupo_79" data-name="Grupo 79" transform="translate(16.453 28.179)">
+        <path id="Trazado_519" data-name="Trazado 519" d="M154.987,76.181c-6.617,8.06-19.584,7.431-19.584,7.431-8,34.451-56.29,51.985-89.821,43.372s-28.915-48.6-28.915-48.6H114.8c8.1,0,8.715-2.461,8.715-2.461-7.178-17.022,3.9-26.147,3.9-26.147,8.614,1.541,10.765,16.3,10.765,16.3a28.74,28.74,0,0,1,16.221,1.692A76.834,76.834,0,0,1,154.987,76.181Z" transform="translate(-16.453 -30.807)" fill="#9f51b6"/>
+        <rect id="Rectángulo_209" data-name="Rectángulo 209" width="13.741" height="12.509" transform="translate(10.672 31.99)" fill="#fff"/>
+        <rect id="Rectángulo_210" data-name="Rectángulo 210" width="13.741" height="12.509" transform="translate(27.941 31.99)" fill="#fff"/>
+        <rect id="Rectángulo_211" data-name="Rectángulo 211" width="13.741" height="12.509" transform="translate(79.739 31.99)" fill="#fff"/>
+        <rect id="Rectángulo_212" data-name="Rectángulo 212" width="13.741" height="12.509" transform="translate(62.474 31.99)" fill="#fff"/>
+        <rect id="Rectángulo_213" data-name="Rectángulo 213" width="13.741" height="12.509" transform="translate(62.474)" fill="#fff"/>
+        <rect id="Rectángulo_214" data-name="Rectángulo 214" width="13.741" height="12.509" transform="translate(45.206 31.99)" fill="#fff"/>
+        <rect id="Rectángulo_215" data-name="Rectángulo 215" width="13.741" height="12.509" transform="translate(27.941 15.993)" fill="#fff"/>
+        <rect id="Rectángulo_216" data-name="Rectángulo 216" width="13.741" height="12.509" transform="translate(62.474 15.993)" fill="#fff"/>
+        <rect id="Rectángulo_217" data-name="Rectángulo 217" width="13.741" height="12.509" transform="translate(45.206 15.993)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
