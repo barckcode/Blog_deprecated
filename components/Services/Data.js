@@ -26,6 +26,13 @@ export const socialMedia = [
 export const projectsList = [
   {
     id: uuidv4(),
+    title: 'SPA Rick and Morty',
+    image: 'rick_morty_spa.png',
+    repo: 'https://github.com/BarckCode/Rick-Morty-SPA',
+    url: 'https://barckcode.github.io/Rick-Morty-SPA/',
+  },
+  {
+    id: uuidv4(),
     title: 'Infographics App',
     image: 'infographics_app.png',
     repo: 'https://github.com/BarckCode/Web-Development-Infographics',
