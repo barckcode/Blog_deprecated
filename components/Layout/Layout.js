@@ -25,8 +25,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Source+Sans+Pro:wght@200;400;600;700&display=swap' rel='stylesheet' />
         <title>BarckCode</title>
+        <meta
+          name='description'
+          content='Portfolio and blog written by BarckCode.
+                  Projects and post about the world of web development'
+        />
       </Head>
       <GlobalStyles
       // Hay que crear un state para manejar esta condición. Y un botón para modificar el state.

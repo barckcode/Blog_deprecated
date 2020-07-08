@@ -57,14 +57,14 @@ const Bio = () => {
     <>
       <BioContainer>
         <ImageContainer>
-          <CoverImage src='/barckcode.png' />
+          <CoverImage src='/barckcode.png' alt='Barckcode picture'/>
         </ImageContainer>
         <BioDescription>
           <BioTitle>
             <h3>
               Hola!
             </h3>
-            <BioSpock src='/icons/spock.svg' />
+            <BioSpock src='/icons/spock.svg' alt='spock icon'/>
           </BioTitle>
           <Description>
             Me llamo Cristian. Actualmente trabajo y resido en Madrid. 🇪🇺
