@@ -62,7 +62,7 @@ Por lo que en muchas ocasiones. Nos encontraremos con comandos que no tenemos ni
 
 Y este se llama: <strong>man</strong>
 
-Su uso es muy sencillo. Vamos a usarlo junto con nuestro comando anteriror. Para ello ejecuta en tu terminal: man ls
+Su uso es muy sencillo. Vamos a usarlo junto con nuestro comando anterior. Para ello ejecuta en tu terminal: man ls
 
 Esto te llevará en tu misma terminal a otra pantalla. En la cuál podrás leer una documentación entera sobre el comando. Cómo se usa, para qué sirve, qué opciones tiene y muchas cosas más.
 
@@ -114,6 +114,6 @@ No quiero irme sin antes dejarte los 6 comandos imprescindibles que debes saber 
 
 - <strong>find:</strong> de los 6. Este posiblemente sea el más poderoso. Te sirve para buscar ficheros y directorios en el sistema. Te permite poner filtros en la búsqueda. O incluso ejecutar tareas después de realizar esa búsqueda.
 
-Espero que os ha gustado. Si es así os invito a compartirlo o dejarme un comentario por [<strong>Twitter</strong>](https://twitter.com/barckcode)😜. Si no también te agradecería tu feedback para poder mejorar mi contenido.
+Espero que os haya gustado. Si es así os invito a compartirlo o dejarme un comentario por [<strong>Twitter</strong>](https://twitter.com/barckcode)😜. Si no también te agradecería tu feedback para poder mejorar mi contenido.
 
 Saludos!!

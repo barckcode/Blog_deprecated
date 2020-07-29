@@ -56,6 +56,6 @@ Os dejo el repositorio de Docker por si les queréis echar un vistazo a las imag
 
 En mi caso la primera vez que corrí un contenedor me sorprendió la facilidad y velocidad con la que se hace. Pudiendo tener por ejemplo un servidor web, con los requisitos que yo quisiera. Funcionando y escuchando en solo cuestión de segundos. Lo cuál con una maquina virtual es literalmente imposible.
 
-Espero que os ha gustado. Si es así os invito a compartirlo por [<strong>Twitter</strong>](https://twitter.com/barckcode)😜. Si no también te agradecería tu feedback para poder mejorar mi contenido.
+Espero que os haya gustado. Si es así os invito a compartirlo por [<strong>Twitter</strong>](https://twitter.com/barckcode)😜. Si no también te agradecería tu feedback para poder mejorar mi contenido.
 
 Saludos!!
